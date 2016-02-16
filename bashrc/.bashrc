@@ -213,11 +213,16 @@ fda() {
 
 # run tmux on startup
 # https://unix.stackexchange.com/questions/43601/how-can-i-set-my-default-shell-to-start-up-tmux
+# alias tmux="tmux -2"
 if command -v tmux>/dev/null; then
- [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && exec tmux
+ [[ ! $TERM =~ screen ]] && 
+ [ -z $TMUX ] && 
+ exec tmux -2
 fi
 
 # Change Colors
 # https://github.com/gotbletu/dotfiles/blob/master/bashrc/.bashrc
 PS1="\[$BCyan\]\w \[$BRed\]$\[$BWhite\] "
-export TERM=xterm-256color
+
+# apparently this is bad
+# export TERM=xterm-256color
