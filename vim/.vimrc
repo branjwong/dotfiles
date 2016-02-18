@@ -32,6 +32,7 @@ set incsearch           " search as characters are entered
 set hlsearch            " highlight all matches
 " }}}
 " Line Shortcuts {{{
+imap <C-@> <Esc>        " map ctrl-space to esc
 "nnoremap j gj
 "nnoremap k gk
 "nnoremap B ^
