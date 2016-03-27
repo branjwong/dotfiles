@@ -23,10 +23,10 @@
 ### Essentials
     htop vim tmux curl fzf
 
-
 ### CLI
        
 ### GUI
     subl 
 
-### Other
+### Programming
+    node npm elm elm-css pm2
