@@ -196,6 +196,11 @@ On_IWhite='\e[0;107m'   # White
 # fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+# Respecting .gitignore
+# Feed the output of ag into fzf
+# Setting ag as the default source for fzf
+export FZF_DEFAULT_COMMAND='ag -g ""'
+
 # fzf commands - https://github.com/junegunn/fzf/wiki/examples
 # fd - cd to selected directory
 fd() {
