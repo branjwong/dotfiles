@@ -21,7 +21,7 @@
 
     
 ### Essentials
-    htop vim tmux curl fzf
+    htop vim tmux curl fzf ag
 
 ### CLI
        
