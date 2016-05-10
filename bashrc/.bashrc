@@ -231,3 +231,7 @@ PS1="\[$BCyan\]\w \[$BRed\]$\[$BWhite\] "
 
 # apparently this is bad
 # export TERM=xterm-256color
+
+
+# for stuff in ~/bin, like exercism
+export PATH=$HOME/bin:$PATH
