@@ -219,11 +219,15 @@ fda() {
 # run tmux on startup
 # https://unix.stackexchange.com/questions/43601/how-can-i-set-my-default-shell-to-start-up-tmux
 # alias tmux="tmux -2"
-if command -v tmux>/dev/null; then
- [[ ! $TERM =~ screen ]] && 
- [ -z $TMUX ] && 
- exec tmux -2
-fi
+# if command -v tmux>/dev/null; then
+#  [[ ! $TERM =~ screen ]] && 
+#  [ -z $TMUX ] && 
+#  exec tmux -2
+# fi
+
+# allow mac tmux to work with sublime cli
+alias subl='open -a "/Applications/Sublime Text.app"'
+
 
 # Change Colors
 # https://github.com/gotbletu/dotfiles/blob/master/bashrc/.bashrc
@@ -235,3 +239,6 @@ PS1="\[$BCyan\]\w \[$BRed\]$\[$BWhite\] "
 
 # for stuff in ~/bin, like exercism
 export PATH=$HOME/bin:$PATH
+
+# for stuff in brew folder
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
