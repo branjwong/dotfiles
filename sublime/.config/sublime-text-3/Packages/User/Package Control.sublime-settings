@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"Elixir",
 		"Elm Language Support",
 		"Package Control",
 		"Predawn"
