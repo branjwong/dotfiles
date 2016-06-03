@@ -2,7 +2,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"copy_with_empty_selection": true,
 	"detect_slow_plugins": false,
 	"drag_text": false,
@@ -30,6 +30,7 @@
 	"show_full_path": false,
 	"sidebar_default": true,
 	"tab_size": 2,
+	"theme": "Seti.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
 	"word_wrap": true

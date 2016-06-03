@@ -5,9 +5,12 @@
 	],
 	"installed_packages":
 	[
-		"Elixir",
 		"Elm Language Support",
+		"JSONLint",
 		"Package Control",
-		"Predawn"
+		"Predawn",
+		"Pretty JSON",
+		"Seti_UI",
+		"Seti_UX"
 	]
 }
