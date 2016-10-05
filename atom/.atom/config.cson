@@ -2,7 +2,6 @@
   core:
     disabledPackages: [
       "language-actionscript"
-      "minimap-git-diff"
     ]
     ignoredNames: [
       ".git"
@@ -13,7 +12,6 @@
       "Thumbs.db"
       ".DS_Store"
     ]
-    openEmptyEditorOnStart: false
     themes: [
       "seti-ui"
       "one-dark-syntax"
@@ -21,16 +19,10 @@
   editor:
     invisibles: {}
     showIndentGuide: true
+    tabLength: 4
   "exception-reporting":
     userId: "a1d211d8-e755-a96e-20e8-c24d94236e7e"
-  minimap:
-    plugins:
-      "git-diff": true
-      "git-diffDecorationsZIndex": 0
   "seti-ui":
     compactView: true
   welcome:
     showOnStartup: false
-".3.actionscript.source":
-  editor:
-    tabLength: 4

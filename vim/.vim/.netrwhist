@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Volumes/brandon'
-let g:netrw_dirhist_2='/Volumes/brandon/PFGrassRoots'
-let g:netrw_dirhist_3='/Volumes/brandon/PFGrassRoots/backend'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/branjwong/Github/bjw-site/src'
+let g:netrw_dirhist_2='/home/branjwong/Github/bjw-site'
+let g:netrw_dirhist_3='/home/branjwong/Github/bjw-site/src'
+let g:netrw_dirhist_4='/home/branjwong/Github/bjw-site/src/backend'
+let g:netrw_dirhist_5='/home/branjwong/Github/bjw-site'
+let g:netrw_dirhist_6='/home/branjwong/Github/bjw-site/src'
+let g:netrw_dirhist_7='/home/branjwong/Github/bjw-site/src/pages'
+let g:netrw_dirhist_8='/home/branjwong/.vim/colors/badwolf'

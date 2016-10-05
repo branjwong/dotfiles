@@ -58,9 +58,6 @@ filetype plugin indent on
 " fzf setup
 set rtp+=~/.fzf
 
-" If installed using Homebrew
-set rtp+=/usr/local/opt/fzf
-
 " Fixing Colors {{{
 " https://sunaku.github.io/vim-256color-bce.html
 set term=screen-256color
