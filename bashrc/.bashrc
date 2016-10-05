@@ -242,3 +242,6 @@ export PATH=$HOME/bin:$PATH
 
 # for stuff in brew folder
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+
+# for stuff like Java SDK 
+export PATH="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home:$PATH"

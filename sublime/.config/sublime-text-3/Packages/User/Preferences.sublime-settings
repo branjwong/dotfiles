@@ -7,6 +7,29 @@
 	"detect_slow_plugins": false,
 	"drag_text": false,
 	"draw_minimap_border": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"._*"
+	],
 	"font_options":
 	[
 		"no_round"
@@ -17,6 +40,7 @@
 	"ignored_packages":
 	[
 		"Highlight Build Errors",
+		"Package Control",
 		"Vintage"
 	],
 	"match_brackets_content": false,
@@ -30,7 +54,7 @@
 	"show_full_path": false,
 	"sidebar_default": true,
 	"tab_size": 4,
-	"theme": "Seti.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
 	"word_wrap": true
