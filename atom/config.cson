@@ -1,0 +1,31 @@
+"*":
+  core:
+    disabledPackages: [
+      "vim-mode"
+      "vim-mode-plus"
+    ]
+    openEmptyEditorOnStart: false
+    telemetryConsent: "limited"
+    themes: [
+      "seti-ui"
+      "atom-dark-syntax"
+    ]
+  editor:
+    fontSize: 12
+    invisibles:
+      cr: false
+      eol: false
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "02dbee11-8052-2f87-708e-7738be695bd6"
+  "project-manager":
+    alwaysOpenInSameWindow: true
+  "seti-ui":
+    compactView: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+    removeTrailingWhitespace: false
