@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"BracketHighlighter",
 		"Elixir",
 		"Elm Language Support",
 		"JSONLint",

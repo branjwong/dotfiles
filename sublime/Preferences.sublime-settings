@@ -30,7 +30,7 @@
 	"show_full_path": false,
 	"sidebar_default": true,
 	"tab_size": 4,
-	"theme": "Seti.sublime-theme",
+	"theme": "Seti_orig.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
 	"word_wrap": true
