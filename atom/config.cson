@@ -1,4 +1,15 @@
 "*":
+  "atom-material-ui":
+    colors: {}
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    treeView:
+      blendTabs: true
+      compactList: true
+    ui:
+      panelContrast: true
+      panelShadows: true
   core:
     disabledPackages: [
       "vim-mode"
@@ -7,8 +18,8 @@
     openEmptyEditorOnStart: false
     telemetryConsent: "limited"
     themes: [
-      "seti-ui"
-      "atom-dark-syntax"
+      "atom-material-ui"
+      "atom-material-syntax"
     ]
   editor:
     fontSize: 12
@@ -18,8 +29,13 @@
     showInvisibles: true
     softWrap: true
     tabLength: 4
+  "elm-format":
+    binary: "/usr/bin/elm-format"
   "exception-reporting":
     userId: "02dbee11-8052-2f87-708e-7738be695bd6"
+  "language-elm":
+    autocompleteEnabled: false
+    elmOraclePath: "/usr/bin/elm-oracle"
   "project-manager":
     alwaysOpenInSameWindow: true
   "seti-ui":
