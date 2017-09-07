@@ -220,8 +220,8 @@ fda() {
 # https://unix.stackexchange.com/questions/43601/how-can-i-set-my-default-shell-to-start-up-tmux
 # alias tmux="tmux -2"
 # if command -v tmux>/dev/null; then
-#  [[ ! $TERM =~ screen ]] && 
-#  [ -z $TMUX ] && 
+#  [[ ! $TERM =~ screen ]] &&
+#  [ -z $TMUX ] &&
 #  exec tmux -2
 # fi
 
@@ -238,7 +238,10 @@ PS1="\[$BCyan\]\w \[$BRed\]$\[$BWhite\] "
 
 
 # for stuff in ~/bin, like exercism
-export PATH=$HOME/bin:$PATH
+# export PATH=$HOME/bin:$PATH
 
 # for stuff in brew folder
-export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+# export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+
+# Window Title shows Current Directory
+PROMPT_COMMAND='echo -ne "\033]0; ${PWD}\007"'
