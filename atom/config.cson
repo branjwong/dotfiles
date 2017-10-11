@@ -28,7 +28,7 @@
   "django-templates": {}
   editor:
     autoIndentOnPaste: false
-    fontSize: 12
+    fontSize: 10
     invisibles:
       cr: false
       eol: false
