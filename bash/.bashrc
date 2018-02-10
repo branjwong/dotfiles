@@ -226,7 +226,7 @@ fda() {
 # fi
 
 # allow mac tmux to work with sublime cli
-alias subl='open -a "/Applications/Sublime Text.app"'
+# alias subl='open -a "/Applications/Sublime Text.app"'
 
 
 # Change Colors
@@ -244,4 +244,13 @@ PS1="\[$BCyan\]\w \[$BRed\]$\[$BWhite\] "
 # export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 
 # Window Title shows Current Directory
-PROMPT_COMMAND='echo -ne "\033]0; ${PWD}\007"'
+# PROMPT_COMMAND='echo -ne "\033]0; ${PWD}\007"'
+# PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD/$HOME/~}\007"'
+case "$TERM" in
+xterm*|rxvt*)
+  # NEW PS1 directive, shows only current directory name as terminal window name
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\W\a\]$PS1"
+    ;;
+*)
+    ;;
+esac
