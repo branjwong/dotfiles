@@ -6,13 +6,21 @@
 	"installed_packages":
 	[
 		"BracketHighlighter",
+		"Djaneiro",
 		"Elixir",
 		"Elm Language Support",
+		"Git",
+		"Highlight Build Errors",
 		"JSONLint",
+		"nginx",
 		"Package Control",
 		"Predawn",
 		"Pretty JSON",
+		"PyYapf Python Formatter",
+		"RestructuredText Improved",
 		"Seti_UI",
-		"Seti_UX"
+		"Seti_UX",
+		"SideBarEnhancements",
+		"SublimeCodeIntel"
 	]
 }
