@@ -1,0 +1,7 @@
+{
+      "on_save": true,
+      "yapf_command": "/usr/bin/yapf",
+      "config": {
+            "COLUMN_LIMIT": 100
+        }
+}
