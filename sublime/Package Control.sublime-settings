@@ -1,4 +1,8 @@
 {
+	"auto_upgrade_ignore":
+	[
+		"Elm Language Support"
+	],
 	"bootstrapped": true,
 	"in_process_packages":
 	[
@@ -23,6 +27,7 @@
 		"Seti_UI",
 		"Seti_UX",
 		"SideBarEnhancements",
-		"SublimeCodeIntel"
+		"SublimeCodeIntel",
+		"TypeScript"
 	]
 }
