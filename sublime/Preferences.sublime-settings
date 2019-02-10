@@ -2,7 +2,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Light.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"copy_with_empty_selection": true,
 	"detect_slow_plugins": false,
 	"drag_text": false,
@@ -16,6 +16,7 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"Boxy Theme",
 		"Highlight Build Errors",
 		"JSONLint",
 		"RestructuredText",
@@ -32,7 +33,7 @@
 	"show_full_path": false,
 	"sidebar_default": true,
 	"tab_size": 4,
-	"theme": "Boxy Solarized Light.sublime-theme",
+	"theme": "predawn-DEV.sublime-theme",
 	"theme_accent_green": true,
 	"theme_bar": true,
 	"theme_bar_colored": true,

@@ -4,13 +4,10 @@
 		"Elm Language Support"
 	],
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
 	"installed_packages":
 	[
 		"A File Icon",
-		"Boxy Theme",
+		"Babel",
 		"BracketHighlighter",
 		"Djaneiro",
 		"Elixir",

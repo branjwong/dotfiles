@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "terminal.integrated.rendererType": "dom",
+  "breadcrumbs.enabled": true,
+  "[csharp]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4
+  },
+  "zenMode.hideTabs": false,
+  "prettier.eslintIntegration": true,
+  "eslint.autoFixOnSave": true,
+  "git.autofetch": true,
+  "window.zoomLevel": 0
+}
