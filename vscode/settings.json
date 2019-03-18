@@ -1,9 +1,12 @@
 {
   "editor.formatOnSave": true,
   "editor.detectIndentation": false,
-  "editor.tabSize": 2,
+  "editor.tabSize": 4,
   "terminal.integrated.rendererType": "dom",
   "breadcrumbs.enabled": true,
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
   "[csharp]": {
     "editor.insertSpaces": false,
     "editor.tabSize": 4
@@ -12,5 +15,14 @@
   "prettier.eslintIntegration": true,
   "eslint.autoFixOnSave": true,
   "git.autofetch": true,
-  "window.zoomLevel": 0
+  "window.zoomLevel": 1,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/env/*/**": true
+  },
+  "gitlens.views.repositories.files.layout": "list",
+"python.formatting.provider": "black",
+"editor.wordWrap": "on"
 }
