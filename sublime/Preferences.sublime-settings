@@ -16,7 +16,6 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Boxy Theme",
 		"Highlight Build Errors",
 		"JSONLint",
 		"RestructuredText",
