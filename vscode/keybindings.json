@@ -61,5 +61,13 @@
   {
     "key": "ctrl+shift+t",
     "command": "-workbench.action.reopenClosedEditor"
+  },
+  {
+    "key": "ctrl+alt+pagedown",
+    "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "ctrl+alt+pageup",
+    "command": "workbench.action.terminal.focusPrevious"
   }
 ]

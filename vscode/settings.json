@@ -6,11 +6,15 @@
   "breadcrumbs.enabled": true,
   "[csharp]": {
     "editor.insertSpaces": false,
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "editor.formatOnSave": false
   },
   "zenMode.hideTabs": false,
   "prettier.eslintIntegration": true,
   "eslint.autoFixOnSave": true,
   "git.autofetch": true,
-  "window.zoomLevel": 0
+  "window.zoomLevel": -1,
+  "workbench.startupEditor": "newUntitledFile",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
 }
