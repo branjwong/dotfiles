@@ -1,9 +1,12 @@
 {
   "editor.formatOnSave": true,
   "editor.detectIndentation": false,
-  "editor.tabSize": 2,
+  "editor.tabSize": 4,
   "terminal.integrated.rendererType": "dom",
   "breadcrumbs.enabled": true,
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
   "[csharp]": {
     "editor.insertSpaces": false,
     "editor.tabSize": 4,
@@ -12,9 +15,17 @@
   "zenMode.hideTabs": false,
   "prettier.eslintIntegration": true,
   "eslint.autoFixOnSave": true,
-  "git.autofetch": true,
   "window.zoomLevel": -1,
   "workbench.startupEditor": "newUntitledFile",
   "diffEditor.ignoreTrimWhitespace": false,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/env/*/**": true
+  },
+  "gitlens.views.repositories.files.layout": "list",
+  "python.formatting.provider": "black",
+  "editor.wordWrap": "on"
 }

@@ -11,12 +11,11 @@
 	[
 		"no_round"
 	],
-	"font_size": 13,
+	"font_size": 11,
 	"highlight_line": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Boxy Theme",
 		"Highlight Build Errors",
 		"JSONLint",
 		"RestructuredText",
