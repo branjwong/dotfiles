@@ -1,31 +1,58 @@
 {
-  "editor.formatOnSave": true,
-  "editor.detectIndentation": false,
-  "editor.tabSize": 4,
-  "terminal.integrated.rendererType": "dom",
-  "breadcrumbs.enabled": true,
-  "[javascript]": {
-    "editor.tabSize": 2
-  },
-  "[csharp]": {
-    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": false,
     "editor.tabSize": 4,
-    "editor.formatOnSave": false
-  },
-  "zenMode.hideTabs": false,
-  "prettier.eslintIntegration": true,
-  "eslint.autoFixOnSave": true,
-  "window.zoomLevel": -1,
-  "workbench.startupEditor": "newUntitledFile",
-  "diffEditor.ignoreTrimWhitespace": false,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-  "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/node_modules/*/**": true,
-    "**/env/*/**": true
-  },
-  "gitlens.views.repositories.files.layout": "list",
-  "python.formatting.provider": "black",
-  "editor.wordWrap": "on"
+    "terminal.integrated.rendererType": "dom",
+    "breadcrumbs.enabled": true,
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[csharp]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4,
+        "editor.formatOnSave": false
+    },
+    "[markdown]": {
+        "editor.tabSize": 2
+    },
+    "zenMode.hideTabs": false,
+    "prettier.eslintIntegration": true,
+    "eslint.autoFixOnSave": true,
+    "window.zoomLevel": -1,
+    "workbench.startupEditor": "newUntitledFile",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/env/*/**": true
+    },
+    "python.formatting.provider": "black",
+    "editor.wordWrap": "on",
+    "[xml]": {
+        "editor.detectIndentation": false
+    },
+    "atlascode.jira.workingSite": {
+        "baseUrlSuffix": "atlassian.net"
+    },
+    "yaml.schemas": {
+        "file:///c%3A/Users/BrandonWong/.vscode/extensions/atlassian.atlascode-1.4.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "search.location": "panel",
+    "[sql]": {
+        "editor.formatOnSave": false
+    },
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.fileHistory.location": "explorer",
+    "gitlens.views.lineHistory.location": "explorer",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "gitlens.keymap": "none",
+    "git.showPushSuccessNotification": true,
+    "gitlens.sortBranchesBy": "date:desc",
+    "omnisharp.useEditorFormattingSettings": false,
+    "omnisharp.disableMSBuildDiagnosticWarning": true
 }
