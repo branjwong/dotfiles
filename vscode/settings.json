@@ -1,57 +1,54 @@
 {
-    "editor.formatOnSave": true,
-    "editor.detectIndentation": false,
-    "editor.tabSize": 4,
-    "terminal.integrated.rendererType": "dom",
     "breadcrumbs.enabled": true,
-    "[javascript]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[csharp]": {
-        "editor.insertSpaces": false,
-        "editor.tabSize": 4,
-        "editor.formatOnSave": false
-    },
-    "[markdown]": {
-        "editor.tabSize": 2
-    },
-    "zenMode.hideTabs": false,
-    "window.zoomLevel": 0,
-    "workbench.startupEditor": "newUntitledFile",
     "diffEditor.ignoreTrimWhitespace": true,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "diffEditor.renderSideBySide": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
     "files.watcherExclude": {
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
         "**/node_modules/*/**": true,
-        "**/env/*/**": true
+        "**/env/*/**": true,
+        "elm-stuff": true,
     },
-    "editor.wordWrap": "on",
-    "[xml]": {
-        "editor.detectIndentation": false
+    "git.showPushSuccessNotification": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.keymap": "none",
+    "gitlens.insiders": false,
+    "gitlens.sortBranchesBy": "date:desc",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "zenMode.hideTabs": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify",
+        "editor.tabSize": 2,
+    },
+    "[csharp]": {
+        "editor.formatOnSave": false,
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4,
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify",
+        "editor.tabSize": 2,
+    },
+    "[markdown]": {
+        "editor.tabSize": 2
     },
     "[sql]": {
         "editor.formatOnSave": false
     },
-    "gitlens.hovers.currentLine.over": "line",
-    "gitlens.views.compare.location": "gitlens",
-    "gitlens.views.search.location": "gitlens",
-    "gitlens.keymap": "none",
-    "git.showPushSuccessNotification": true,
-    "gitlens.sortBranchesBy": "date:desc",
-    "gitlens.insiders": false,
-    "omnisharp.useEditorFormattingSettings": false,
-    "omnisharp.disableMSBuildDiagnosticWarning": true,
-    "[json]": {
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "[xml]": {
+        "editor.detectIndentation": false
     },
-    "gitlens.views.repositories.branches.layout": "list",
-    "gitlens.views.repositories.location": "scm",
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "diffEditor.renderSideBySide": true,
-    "terminal.integrated.fontFamily": "Source Code Pro for Powerline"
 }
