@@ -17,7 +17,7 @@
         "editor.tabSize": 2
     },
     "zenMode.hideTabs": false,
-    "window.zoomLevel": -2,
+    "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
     "diffEditor.ignoreTrimWhitespace": true,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -31,7 +31,6 @@
     "[xml]": {
         "editor.detectIndentation": false
     },
-    "search.location": "panel",
     "[sql]": {
         "editor.formatOnSave": false
     },
@@ -53,5 +52,6 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "diffEditor.renderSideBySide": true
+    "diffEditor.renderSideBySide": true,
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline"
 }
