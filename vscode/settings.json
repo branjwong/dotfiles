@@ -25,7 +25,7 @@
     "gitlens.views.search.location": "gitlens",
     "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
     "terminal.integrated.rendererType": "dom",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
     "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
     "zenMode.hideTabs": false,
