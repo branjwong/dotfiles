@@ -133,5 +133,9 @@
     {
         "key": "ctrl+shift+`",
         "command": "-workbench.action.terminal.new"
+    },
+    {
+        "key": "shift+`",
+        "command": "workbench.action.toggleMaximizedPanel"
     }
 ]
