@@ -1,6 +1,5 @@
 // Place your key bindings in this file to override the defaults
-[
-    {
+[{
         "key": "ctrl+t",
         "command": "-workbench.action.showAllSymbols"
     },
@@ -147,5 +146,9 @@
     {
         "key": "ctrl+shift+d",
         "command": "-workbench.view.debug"
+    },
+    {
+        "key": "shift+`",
+        "command": "workbench.action.toggleMaximizedPanel"
     }
 ]
