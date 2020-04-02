@@ -16,6 +16,9 @@
         "**/env/*/**": true,
         "elm-stuff": true
     },
+    "files.associations": {
+        "*.rules": "hledger"
+    },
     "git.showPushSuccessNotification": true,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.keymap": "none",
