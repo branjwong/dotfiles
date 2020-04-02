@@ -14,7 +14,7 @@
         "**/.git/subtree-cache/**": true,
         "**/node_modules/*/**": true,
         "**/env/*/**": true,
-        "elm-stuff": true,
+        "elm-stuff": true
     },
     "git.showPushSuccessNotification": true,
     "gitlens.hovers.currentLine.over": "line",
@@ -31,16 +31,16 @@
     "zenMode.hideTabs": false,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.tabSize": 2,
+        "editor.tabSize": 2
     },
     "[csharp]": {
         "editor.formatOnSave": false,
         "editor.insertSpaces": false,
-        "editor.tabSize": 4,
+        "editor.tabSize": 4
     },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.tabSize": 2,
+        "editor.tabSize": 4
     },
     "[markdown]": {
         "editor.tabSize": 2
@@ -52,5 +52,5 @@
         "editor.detectIndentation": false
     },
     "extensions.ignoreRecommendations": false,
-    "workbench.editor.showTabs": false,
+    "workbench.editor.showTabs": false
 }
