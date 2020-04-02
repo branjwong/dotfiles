@@ -52,4 +52,5 @@
         "editor.detectIndentation": false
     },
     "extensions.ignoreRecommendations": false,
+    "workbench.editor.showTabs": false,
 }
