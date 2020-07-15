@@ -58,4 +58,7 @@
     "extensions.ignoreRecommendations": false,
   "workbench.editor.showTabs": true,
 "explorer.confirmDragAndDrop": false,
+"[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
 }
