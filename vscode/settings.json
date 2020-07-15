@@ -57,4 +57,5 @@
     },
     "extensions.ignoreRecommendations": false,
   "workbench.editor.showTabs": true,
+"explorer.confirmDragAndDrop": false,
 }
