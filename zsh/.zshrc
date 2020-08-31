@@ -56,7 +56,10 @@ eval "$(direnv hook zsh)"
 # Setup hledger
 export LEDGER_FILE="${HOME}/Git/hledger/.hledger.journal"
 
- 
 # Setup programs installed by Stack
 # e.g. hledger
 export PATH=${HOME}/.local/bin:$PATH
+
+# Setup programs installed by npm
+# e.g. elm
+export PATH=${HOME}/.npm-packages/bin:$PATH
