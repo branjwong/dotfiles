@@ -7,7 +7,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="bullet-train"
+ZSH_THEME="robbyrussell"
 
 # Set bullet-train theme options
 BULLETTRAIN_PROMPT_ORDER=(
@@ -110,7 +110,7 @@ source $ZSH/oh-my-zsh.sh
 NPM_PACKAGES="${HOME}/.npm-packages"
 PATH="$NPM_PACKAGES/bin:$PATH"
 
-# Set fzf shortcuts
+# Setup fzf shortcuts :: https://github.com/junegunn/fzf.vim
 # fd - cd to selected directory
 fd() {
   local dir
@@ -119,5 +119,6 @@ fd() {
   cd "$dir"
 }
 
-# Setup direnv
+
+# Setup direnv :: https://direnv.net/
 eval "$(direnv hook zsh)"
