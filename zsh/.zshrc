@@ -1,3 +1,5 @@
+source "~/.bash_aliases"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -55,7 +57,7 @@ fd() {
 
 
 # Setup direnv :: https://direnv.net/
-eval "$(direnv hook zsh)"
+# eval "$(direnv hook zsh)"
 
 # Setup hledger
 export LEDGER_FILE="${HOME}/Git/hledger/.hledger.journal"
